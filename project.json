@@ -1,0 +1,72 @@
+{
+  "name": "MeezanBank-UiPathADTDemo",
+  "projectId": "5163ed90-850d-4db3-b331-21aaf42c7346",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "LoginToACME": "[1.0.1]",
+    "UiPath.Excel.Activities": "[3.5.3]",
+    "UiPath.GSuite.Activities": "[3.10.0-preview]",
+    "UiPath.Mail.Activities": "[2.9.10]",
+    "UiPath.OmniPage.Activities": "[2.1.1]",
+    "UiPath.PDF.Activities": "[4.3.0]",
+    "UiPath.System.Activities": "[26.6.1]",
+    "UiPath.UIAutomation.Activities": "[26.10.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.196.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0f94ca7e-e7f5-4daa-ac2f-f00421bed493",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "8a3d61ab-d2a3-43c0-94d1-929125f175cb",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
